@@ -18,3 +18,6 @@ Extrema pobreza: quando uma pessoa possui uma renda inferior a US 1, 90 𝑝𝑜
 Pobreza: quando uma pessoa possui renda diária inferior a US 5,50𝑝𝑜𝑟𝑑𝑖𝑎,𝑜𝑢𝑠𝑒𝑗𝑎,𝑎𝑝𝑟𝑜𝑥𝑖𝑚𝑎𝑑𝑎𝑚𝑒𝑛𝑡𝑒𝑈𝑆 486,00 por mês em valores atualizados.
 
 Vulnerabilidade: São pessoas tanto em situação de pobreza quanto de extrema pobreza
+
+Aqui esta o link do kaggle onde esta a análise completa:
+https://www.kaggle.com/code/leandrofassis/indice-pobreza-brasil
