@@ -1,0 +1,19 @@
+name: Display Custom File as README
+on:
+  push:
+    branches:
+      - main  # Substitua 'main' pelo nome da sua branch principal, se necessário
+
+jobs:
+  displayCustomReadme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: Display Custom File as README
+        run: |
+          mv indice_pobreza_brasil.ipynb README.md
+          git add README.md
+          git commit -m "Display indice_pobreza_brasil.ipynb as README"
+          git push origin ${{ github.ref }}
